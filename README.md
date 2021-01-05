@@ -1,3 +1,12 @@
-Olá, esse projeto foi desenvolvido para colocar em prática alguns estudos e juntamente com isso montar um portfólio para divulgar meu trabalho como desenvolvedor.
+### Matheus Germano's Portfolio
 
-Criei as interfaces através do Adobe XD e desenvolvi a aplicação no Visual Studio Code.
+This project was developed to practice my skills and create my personal portfolio.
+
+### Technologies 👨‍💻
+
+- HTML
+- CSS
+- Bootstrap 4
+- JavaScript (just to switch dark/light mode)
+
+### Thank you
