@@ -17,6 +17,28 @@ p {
     font-size: 16px;
 }
 
+.btn-primary {
+    border-radius: 25px;
+    background-color: #6C63FF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5850e2;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
 .text-white {
     color: #f0f0f7 !important;
 }
@@ -27,6 +49,11 @@ p {
 
 #titulos {
     font-size: 32px;
+    border-left: 4px solid #6C63FF;
+    padding-left: 10px;
+}
+
+.card-title {
     border-left: 4px solid #6C63FF;
     padding-left: 10px;
 }
@@ -103,6 +130,10 @@ p {
 }
 
 .navbar-toggler::after {
+    border: none!important;
+}
+
+.card {
     border: none!important;
 }
 
