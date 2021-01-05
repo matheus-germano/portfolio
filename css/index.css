@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f7;
+}
+
+p {
+    font-size: 20px;
+}
+
+#nav-item {
+    color: #f0f0f7;
+}
+
+#titulos {
+    font-size: 32px;
+    border-left: 4px solid #6C63FF;
+    padding-left: 10px;
+}
+
+#tec {
+    width: auto;
+    height: 128px;
+}
+
+#tecnologia {
+    transition: .5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tecnologia:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+#svg {
+    width: 410px;
+    height: auto;
+}
