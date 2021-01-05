@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 body {
     background-color: #f0f0f7;
     color: #222;
     transition: background .2s linear;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body.dark {
     background-color: #222;
     color: #f0f0f7;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .text-white {
@@ -61,12 +65,12 @@ p {
 }
 
 .ball {
-    width: 22px;
-    height: 22px;
-    background-color: white;
+    width: 24px;
+    height: 24px;
+    background-color: #f0f0f7;
     position: absolute;
     /* top: 2px; */
-    left: 0px;
+    left: -1px;
     border-radius: 50%;
     transition: transform .2s linear;
 }
@@ -88,4 +92,16 @@ p {
 
 .fa-sun {
     color: #f1c40f;
+}
+
+#mode {
+    margin: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler::after {
+    border: none!important;
 }
