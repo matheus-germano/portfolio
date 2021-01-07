@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+/* Light Mode */
 body {
     background-color: #f0f0f7;
     color: #222;
@@ -7,6 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Dark Mode */
 body.dark {
     background-color: #222;
     color: #f0f0f7;
@@ -17,6 +19,7 @@ p {
     font-size: 16px;
 }
 
+/* Styling Buttons */
 .btn-primary {
     border-radius: 25px;
     background-color: #6C63FF;
@@ -28,6 +31,22 @@ p {
 }
 
 .btn-primary:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus{
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -60,6 +79,10 @@ textarea:focus, input:focus, select:focus {
 
 #social a:hover{
     color: #5850e2!important;
+}
+
+#sobre-mim {
+    width: 100%;
 }
 
 .card-title {
@@ -134,20 +157,13 @@ textarea:focus, input:focus, select:focus {
     margin: auto;
 }
 
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler::after {
-    border: none!important;
-}
-
 .card {
     border: none!important;
 }
 
 footer {
-    height: 10vh;
+    margin-top: 50px;
+    height: 90px;
     text-align: center;
     color: #f0f0f7;
 }
@@ -168,8 +184,26 @@ footer {
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+@media (min-width: 991.98px) { 
+    .nav-link::after{
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: #f0f0f7;
+        display: block;
+        transition: .5s;
+    }
+    
+    .nav-link:hover::after{
+        width: 100%;
+    }
+}  
 
+@media (max-width: 991.98px) {
+    #svg {
+        width: 95%;
+        height: auto;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
