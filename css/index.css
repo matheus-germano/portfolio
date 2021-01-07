@@ -53,6 +53,15 @@ textarea:focus, input:focus, select:focus {
     padding-left: 10px;
 }
 
+#social a{
+    font-size: 30px;
+    color: #6C63FF!important;
+}
+
+#social a:hover{
+    color: #5850e2!important;
+}
+
 .card-title {
     border-left: 4px solid #6C63FF;
     padding-left: 10px;
@@ -75,7 +84,7 @@ textarea:focus, input:focus, select:focus {
 }
 
 #svg {
-    width: 410px;
+    width: auto;
     height: auto;
 }
 
@@ -141,4 +150,29 @@ footer {
     height: 10vh;
     text-align: center;
     color: #f0f0f7;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #svg {
+        width: 85%;
+        height: auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    #sobre-mim h4, #stacks img, #exp h4 {
+        margin-top: 50px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
 }
