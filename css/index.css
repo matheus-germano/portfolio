@@ -161,6 +161,10 @@ textarea:focus, input:focus, select:focus {
     border: none!important;
 }
 
+#card.dark {
+    background-color: #343a40;
+}
+
 footer {
     margin-top: 50px;
     height: 90px;
